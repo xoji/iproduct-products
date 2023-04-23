@@ -78,3 +78,28 @@ body {
 .color-input {
   transition: all 0s;
 }
+
+.error-container {
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  background: red;
+  left: 0;
+  top: 0;
+}
+
+.error-txt {
+  color: #ffffff;
+}
+
+.loading-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
